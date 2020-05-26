@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: sans-serif;
+
+}
+
+.all {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.name-header {
+    margin-top: 15px;
+}
+
+.name-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.links {
+    list-style: none;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #0b4abe;
+}
+
+.links li a:hover {
+    text-decoration: underline;
+    color: #041c85;
+}
+
+.content {
+    display: flex;
+    width: 670px;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.section-header {
+    margin-top: 15px;
+}
+
+.date {
+    font-style: italic;
+    color: #464444;
+    font-size: 0.8em;
+}
+
+.proj-description {
+    font-size: 0.9em;
+    color: #464444;
+}
+
+.content-links {
+    padding-left: 5px;
+    list-style: none;
+}
+
+li {
+    margin: 0 20px 20px 0;
+    vertical-align: top;
+}
+
+.content-links li a {
+    text-decoration: none;
+    color: #0b4abe;
+}
+
+.content-links li a:hover {
+    text-decoration: underline;
+    color: #041c85;
+}
